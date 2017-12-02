@@ -1,3 +1,16 @@
 body{
 	background-color: #F5E1DA;
 }
+
+.cool{
+	visibility: hidden;
+	width: 100px;
+	height: 100px;
+	background-color: #40A798;
+	transition: background-color 1s;
+}
+
+.cool.red{
+	visibility: visible;
+	background-color: #FF5C5C;
+}
